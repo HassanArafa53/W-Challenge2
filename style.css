@@ -5,7 +5,7 @@ html {
 }
 
 body {
-    margin-block: 50px;
+    margin-block-start: 50px;
     font-family: inter;
     line-height: 1.5;
 }
@@ -221,6 +221,44 @@ img,picture {
 
 p {
     font-size: 15px;
+}
+
+.developer {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-inline: auto;
+    margin-block-start: 50px;
+    margin-block-end: 10px;
+    padding: 10px;
+    width: fit-content;
+    font-size: 15px;
+    font-weight: bold;
+    border-right: none;
+    border-left: none;
+    border-top: 2px solid orange;
+    border-bottom: 2px solid orange;
+    border-radius: 10%;
+    -webkit-border-radius: 10%;
+    -moz-border-radius: 10%;
+    -ms-border-radius: 10%;
+    -o-border-radius: 10%;
+}
+.frontendmentor {
+    letter-spacing: 4px;
+    margin-inline-end: 5px;
+}
+.coder {
+    margin-inline-start: 1em;
+}
+.frontendmentor a {
+    color: cornflowerblue;
+}
+.coder a {
+    color: brown;
+}
+.developer a {
+    text-decoration: none;
 }
 
 /* X-Small devices (portrait phones, less than 576px)
